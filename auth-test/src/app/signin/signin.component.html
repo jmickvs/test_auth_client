@@ -1,0 +1,14 @@
+<form [formGroup]="siginForm">
+  
+  <label>
+    user:
+    <input type="text" formControlName="username">
+  </label>
+
+  <label>
+    password:
+    <input type="text" formControlName="password">
+  </label>
+
+  <button (click)="signin()"> Signin </button>
+</form>

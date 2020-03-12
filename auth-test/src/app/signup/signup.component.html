@@ -1,0 +1,19 @@
+<form [formGroup]="signupForm">
+  
+  <label>
+    user:
+    <input type="text" formControlName="username">
+  </label>
+
+  <label>
+    password:
+    <input type="text" formControlName="password">
+  </label>
+
+  <label>
+    password:
+    <input type="text" formControlName="repeatpassword">
+  </label>
+
+  <button (click)="signup()"> Signin </button>
+</form>
